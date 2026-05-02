@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Siti Zahwa Nabila Putri | Data Analyst Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Poppins', sans-serif; }
+    .serif-italic { font-family: 'Playfair Display', serif; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+<!-- ================= NAVBAR ================= -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-white/80 backdrop-blur-md shadow-sm">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+    
+    <!-- LOGO / NAME -->
+    <a href="#header" class="text-lg font-bold text-slate-800 tracking-wide">
+      ZAHWA
+    </a>
+
+    <!-- MENU -->
+    <div class="hidden md:flex items-center gap-10 text-sm font-semibold tracking-[0.18em] uppercase text-slate-600">
+      <a href="#about" class="hover:text-sky-600 transition">About Me</a>
+      <a href="#skills" class="hover:text-sky-600 transition">Skills</a>
+      <a href="#projects" class="hover:text-sky-600 transition">Portfolio</a>
+    </div>
+
+  </div>
+</nav>
+
+  <!-- HERO SECTION -->
+  <section id="header" class="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-sky-100 via-blue-50 to-slate-100">
+    <!-- Soft overlay pattern -->
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(125,211,252,0.35),_transparent_35%),radial-gradient(circle_at_bottom_right,_rgba(191,219,254,0.55),_transparent_35%)]"></div>
+    <div class="absolute inset-0 bg-white/20 backdrop-blur-[1px]"></div>
+
+    <div class="relative z-10 text-center px-6 max-w-5xl mx-auto">
+      <p class="mb-6 text-sm md:text-base tracking-[0.35em] uppercase text-sky-700 font-semibold">Data Analyst Portfolio</p>
+      
+      <h1 class="text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-[0.18em] text-slate-800 leading-tight uppercase">
+        Siti Zahwa<br class="hidden md:block" /> Nabila Putri
+      </h1>
+
+      <p class="serif-italic mt-8 text-lg md:text-2xl text-slate-600">
+        Data Analyst focused on SQL, Python, and Power BI
+      </p>
+
+      <!-- Arrow Button -->
+      <a href="#projects" aria-label="Scroll to projects" class="group inline-flex items-center justify-center mt-14 w-16 h-16 rounded-full border-2 border-sky-400 text-sky-600 bg-white/50 shadow-lg shadow-sky-100 hover:bg-sky-500 hover:text-white hover:border-sky-500 transition-all duration-300 animate-bounce">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 group-hover:translate-y-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-24 px-6 bg-sky-50">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-center">
+      <div>
+        <p class="text-sky-600 uppercase tracking-[0.25em] text-sm font-semibold">About Me</p>
+        <h2 class="mt-3 text-4xl md:text-5xl font-bold text-slate-800">Hi, I’m Zahwa</h2>
+        <div class="mt-4 w-24 h-1 bg-sky-300 rounded-full"></div>
+
+        <div class="mt-8 space-y-5 text-slate-600 leading-relaxed text-lg">
+          <p>
+            I am an aspiring Data Analyst with an interest in transforming raw data into meaningful insights and business recommendations.
+          </p>
+          <p>
+            My portfolio focuses on customer behavior, retention analysis, and customer value segmentation using SQL, Python, and data visualization tools.
+          </p>
+          <p>
+            I enjoy exploring data patterns, identifying business opportunities, and presenting insights in a clear and visually engaging way.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex justify-center md:justify-end">
+        <div class="relative w-72 h-72 md:w-80 md:h-80 rounded-3xl bg-gradient-to-br from-sky-200 to-blue-100 shadow-xl overflow-hidden flex items-center justify-center">
+          <div class="absolute inset-4 rounded-3xl border border-white/70"></div>
+          <div class="text-center px-8">
+            <div class="text-6xl mb-4">👩‍💻</div>
+            <p class="text-slate-700 font-semibold">Profile Image Placeholder</p>
+            <p class="mt-2 text-sm text-slate-500">You can replace this with your photo later.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="py-24 px-6 bg-white">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-16">
+        <p class="text-sky-600 uppercase tracking-[0.25em] text-sm font-semibold">Skills</p>
+        <h2 class="mt-3 text-4xl md:text-5xl font-bold text-slate-800">What I Do</h2>
+        <p class="mt-5 max-w-3xl mx-auto text-slate-600 leading-relaxed">
+          I focus on turning raw data into clear insights, business recommendations, and visual stories.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-10">
+        <div class="flex gap-6 rounded-2xl p-6 hover:bg-sky-50 transition-all duration-300">
+          <div class="shrink-0 w-16 h-16 rounded-2xl bg-sky-100 flex items-center justify-center text-sky-600 text-3xl">📊</div>
+          <div>
+            <h3 class="text-2xl font-semibold text-slate-800">Data Analysis</h3>
+            <p class="mt-3 text-slate-600 leading-relaxed">
+              Analyze customer behavior, identify trends, and extract insights from structured datasets to support business decisions.
+            </p>
+            <p class="mt-4 font-semibold text-slate-700">Tools: SQL, Python, Pandas, Matplotlib</p>
+          </div>
+        </div>
+
+        <div class="flex gap-6 rounded-2xl p-6 hover:bg-sky-50 transition-all duration-300">
+          <div class="shrink-0 w-16 h-16 rounded-2xl bg-sky-100 flex items-center justify-center text-sky-600 text-3xl">📈</div>
+          <div>
+            <h3 class="text-2xl font-semibold text-slate-800">Dashboard & Visualization</h3>
+            <p class="mt-3 text-slate-600 leading-relaxed">
+              Create clear and readable dashboards to communicate key metrics, trends, and business performance.
+            </p>
+            <p class="mt-4 font-semibold text-slate-700">Tools: Power BI, Python Visualization</p>
+          </div>
+        </div>
+
+        <div class="flex gap-6 rounded-2xl p-6 hover:bg-sky-50 transition-all duration-300">
+          <div class="shrink-0 w-16 h-16 rounded-2xl bg-sky-100 flex items-center justify-center text-sky-600 text-3xl">🧠</div>
+          <div>
+            <h3 class="text-2xl font-semibold text-slate-800">Business Insight</h3>
+            <p class="mt-3 text-slate-600 leading-relaxed">
+              Translate analysis results into practical recommendations, especially around customer retention and customer value.
+            </p>
+            <p class="mt-4 font-semibold text-slate-700">Focus: RFM Analysis, Retention, Customer Segmentation</p>
+          </div>
+        </div>
+
+        <div class="flex gap-6 rounded-2xl p-6 hover:bg-sky-50 transition-all duration-300">
+          <div class="shrink-0 w-16 h-16 rounded-2xl bg-sky-100 flex items-center justify-center text-sky-600 text-3xl">💻</div>
+          <div>
+            <h3 class="text-2xl font-semibold text-slate-800">Front-End Web</h3>
+            <p class="mt-3 text-slate-600 leading-relaxed">
+              Build simple responsive portfolio pages to present projects, insights, and data storytelling in a professional way.
+            </p>
+            <p class="mt-4 font-semibold text-slate-700">Tools: HTML, Tailwind CSS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PROJECT SECTION -->
+  <section id="projects" class="py-24 px-6 bg-sky-50">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-14">
+        <p class="text-sky-600 uppercase tracking-[0.25em] text-sm font-semibold">Portfolio</p>
+        <h2 class="mt-3 text-4xl md:text-5xl font-bold text-slate-800">Featured Project</h2>
+        <p class="mt-5 max-w-3xl mx-auto text-slate-600 leading-relaxed">
+          A focused data analysis project that explores customer value, repeat purchase behavior, and retention opportunities in digital commerce.
+        </p>
+      </div>
+
+      <div class="rounded-[2rem] bg-white shadow-xl shadow-sky-100 border border-sky-100 overflow-hidden">
+        <div class="grid lg:grid-cols-2">
+
+          <!-- PROJECT SUMMARY -->
+          <div class="p-8 md:p-12">
+            <span class="inline-flex rounded-full bg-sky-100 px-4 py-2 text-sm font-semibold text-sky-700">Analysis Deck</span>
+
+            <h3 class="mt-6 text-3xl md:text-4xl font-bold text-slate-800 leading-tight">
+              Analyzing Customer Value and Retention Patterns in Digital Commerce
+            </h3>
+
+            <p class="mt-5 text-slate-600 leading-relaxed">
+              This project analyzes customer transaction data from the Olist E-commerce dataset to identify repeat purchase behavior, customer value segments, and business opportunities to improve retention.
+            </p>
+
+            <!-- KEY METRICS -->
+            <div class="mt-8 grid sm:grid-cols-3 gap-4">
+              <div class="rounded-2xl bg-sky-50 p-5 border border-sky-100">
+                <p class="text-3xl font-bold text-sky-700">97.13%</p>
+                <p class="mt-2 text-sm text-slate-600">One-time Customers</p>
+              </div>
+              <div class="rounded-2xl bg-sky-50 p-5 border border-sky-100">
+                <p class="text-3xl font-bold text-sky-700">2.87%</p>
+                <p class="mt-2 text-sm text-slate-600">Repeat Customers</p>
+              </div>
+              <div class="rounded-2xl bg-sky-50 p-5 border border-sky-100">
+                <p class="text-3xl font-bold text-sky-700">14.6M</p>
+                <p class="mt-2 text-sm text-slate-600">Total Revenue</p>
+              </div>
+            </div>
+
+            <!-- TOOLS -->
+            <div class="mt-8">
+              <h4 class="text-xl font-semibold text-slate-800">Tools Used</h4>
+              <div class="mt-4 flex flex-wrap gap-3">
+                <span class="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">SQL</span>
+                <span class="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">Python</span>
+                <span class="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">Pandas</span>
+                <span class="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">Matplotlib</span>
+                <span class="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">Power BI</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT VISUAL -->
+          <div class="bg-gradient-to-br from-sky-100 to-blue-50 p-8 md:p-12 flex items-center">
+            <div class="w-full rounded-[1.5rem] bg-white/80 backdrop-blur p-6 shadow-lg border border-white">
+              <div class="flex items-center justify-between mb-6">
+                <div>
+                  <p class="text-sm uppercase tracking-[0.18em] text-sky-600 font-semibold">Customer Segments</p>
+                  <h4 class="mt-1 text-2xl font-bold text-slate-800">RFM Summary</h4>
+                </div>
+                <div class="text-4xl">📊</div>
+              </div>
+
+              <div class="space-y-4">
+                <div>
+                  <div class="flex justify-between text-sm font-medium text-slate-600 mb-2"><span>Low Value</span><span>86,659</span></div>
+                  <div class="h-3 rounded-full bg-sky-100 overflow-hidden"><div class="h-full w-[92%] bg-sky-400 rounded-full"></div></div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-sm font-medium text-slate-600 mb-2"><span>High Value One-time</span><span>3,897</span></div>
+                  <div class="h-3 rounded-full bg-sky-100 overflow-hidden"><div class="h-full w-[18%] bg-sky-500 rounded-full"></div></div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-sm font-medium text-slate-600 mb-2"><span>Repeat</span><span>2,433</span></div>
+                  <div class="h-3 rounded-full bg-sky-100 overflow-hidden"><div class="h-full w-[12%] bg-blue-400 rounded-full"></div></div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-sm font-medium text-slate-600 mb-2"><span>High Value Repeat</span><span>368</span></div>
+                  <div class="h-3 rounded-full bg-sky-100 overflow-hidden"><div class="h-full w-[5%] bg-blue-600 rounded-full"></div></div>
+                </div>
+              </div>
+
+              <p class="mt-6 text-sm text-slate-500">
+                Note: This visual summarizes customer segments generated from RFM-based logic.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= INSIGHTS & RECOMMENDATIONS ================= -->
+  <section id="insights" class="py-24 px-6 bg-white">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-14">
+        <p class="text-sky-600 uppercase tracking-[0.25em] text-sm font-semibold">Key Findings</p>
+        <h2 class="mt-3 text-4xl md:text-5xl font-bold text-slate-800">Insights & Recommendations</h2>
+        <p class="mt-5 max-w-3xl mx-auto text-slate-600 leading-relaxed">
+          Key business insights derived from customer behavior analysis and recommended actions to improve retention and revenue.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-10">
+
+        <!-- INSIGHTS -->
+        <div class="rounded-2xl p-8 bg-sky-50 border border-sky-100">
+          <h3 class="text-2xl font-semibold text-slate-800 mb-6">📊 Key Insights</h3>
+
+          <ul class="space-y-4 text-slate-600 leading-relaxed">
+            <li>• The majority of customers (97%) are one-time buyers, indicating very low retention.</li>
+            <li>• Repeat customers represent only a small portion of the total customer base (~2.87%).</li>
+            <li>• A group of high-value customers exists, but many do not return after their first purchase.</li>
+            <li>• Very few customers consistently generate high revenue (high-value repeat segment).</li>
+          </ul>
+        </div>
+
+        <!-- RECOMMENDATIONS -->
+        <div class="rounded-2xl p-8 bg-blue-50 border border-blue-100">
+          <h3 class="text-2xl font-semibold text-slate-800 mb-6">💡 Recommendations</h3>
+
+          <ul class="space-y-4 text-slate-600 leading-relaxed">
+            <li>• Target high-value one-time customers with personalized retention campaigns.</li>
+            <li>• Implement loyalty programs to encourage repeat purchases.</li>
+            <li>• Improve post-purchase engagement to increase customer return rate.</li>
+            <li>• Focus on converting occasional buyers into long-term valuable customers.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= METHODOLOGY SECTION ================= -->
+  <section id="methodology" class="py-24 px-6 bg-sky-50">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-14">
+        <p class="text-sky-600 uppercase tracking-[0.25em] text-sm font-semibold">Project Details</p>
+        <h2 class="mt-3 text-4xl md:text-5xl font-bold text-slate-800">Dataset & Methodology</h2>
+        <p class="mt-5 max-w-3xl mx-auto text-slate-600 leading-relaxed">
+          This section explains the dataset used and the analytical steps taken to generate customer retention insights.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- DATASET -->
+        <div class="rounded-2xl bg-white p-8 shadow-sm border border-sky-100">
+          <h3 class="text-2xl font-semibold text-slate-800 mb-5">📂 Dataset</h3>
+          <p class="text-slate-600 leading-relaxed">
+            The analysis uses the Brazilian E-Commerce Public Dataset by Olist, which contains order, customer, and payment information from an online marketplace.
+          </p>
+
+          <div class="mt-6">
+            <h4 class="font-semibold text-slate-800 mb-3">Tables Used</h4>
+            <ul class="space-y-2 text-slate-600">
+              <li>• olist_customers_dataset</li>
+              <li>• olist_orders_dataset</li>
+              <li>• olist_order_payments_dataset</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- METHODOLOGY -->
+        <div class="rounded-2xl bg-white p-8 shadow-sm border border-sky-100">
+          <h3 class="text-2xl font-semibold text-slate-800 mb-5">🛠️ Methodology</h3>
+          <ul class="space-y-4 text-slate-600 leading-relaxed">
+            <li>• Cleaned and prepared the datasets by checking missing values and formatting date columns.</li>
+            <li>• Merged customer, order, and payment data using customer_id and order_id.</li>
+            <li>• Aggregated data into customer-level metrics such as total orders, total spending, first purchase, and last purchase.</li>
+            <li>• Classified customers into one-time and repeat buyers.</li>
+            <li>• Applied RFM-based segmentation to identify customer value and retention opportunities.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= STAR METHOD SECTION ================= -->
+  <section id="star" class="py-24 px-6 bg-white">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-14">
+        <p class="text-sky-600 uppercase tracking-[0.25em] text-sm font-semibold">Case Study</p>
+        <h2 class="mt-3 text-4xl md:text-5xl font-bold text-slate-800">STAR Method</h2>
+        <p class="mt-5 max-w-3xl mx-auto text-slate-600 leading-relaxed">
+          A structured summary of the project using Situation, Task, Action, and Result.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        <!-- SITUATION -->
+        <div class="rounded-2xl bg-sky-50 p-7 border border-sky-100">
+          <h3 class="text-xl font-bold text-sky-700 mb-3">Situation</h3>
+          <p class="text-slate-600 leading-relaxed">
+            An e-commerce dataset showed that most customers made only one purchase, raising concerns about low customer retention and long-term revenue sustainability.
+          </p>
+        </div>
+
+        <!-- TASK -->
+        <div class="rounded-2xl bg-sky-50 p-7 border border-sky-100">
+          <h3 class="text-xl font-bold text-sky-700 mb-3">Task</h3>
+          <p class="text-slate-600 leading-relaxed">
+            I aimed to analyze customer transaction data to identify customer value patterns, repeat purchase behavior, and revenue contribution by customer segment.
+          </p>
+        </div>
+
+        <!-- ACTION -->
+        <div class="rounded-2xl bg-sky-50 p-7 border border-sky-100">
+          <h3 class="text-xl font-bold text-sky-700 mb-3">Action</h3>
+          <ul class="space-y-2 text-slate-600 leading-relaxed">
+            <li>• Cleaned and prepared customer, order, and payment datasets.</li>
+            <li>• Used Python to merge tables and aggregate customer-level metrics.</li>
+            <li>• Calculated total orders, total spending, recency, frequency, and monetary value.</li>
+            <li>• Performed RFM analysis to segment customers.</li>
+          </ul>
+        </div>
+
+        <!-- RESULT -->
+        <div class="rounded-2xl bg-sky-50 p-7 border border-sky-100">
+          <h3 class="text-xl font-bold text-sky-700 mb-3">Result</h3>
+          <ul class="space-y-2 text-slate-600 leading-relaxed">
+            <li>• Found that 97.13% of customers were one-time buyers.</li>
+            <li>• Identified that only 2.87% of customers made repeat purchases.</li>
+            <li>• Found high-value one-time customers as a key retention opportunity.</li>
+            <li>• Recommended targeted retention campaigns and loyalty strategies.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
